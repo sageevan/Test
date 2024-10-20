@@ -1,0 +1,13 @@
+modules:
+  bitbucket:dynamicPipelinesProvider:
+    - key: test-dynamic-pipelines-provider
+      function: main
+      name: Test
+      description: A Dynamic Pipelines provider example
+  function:
+    - key: main
+      handler: index.main
+app:
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/0189ea40-6c4a-4d07-a5fa-f85e8a225048
